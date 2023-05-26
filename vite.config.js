@@ -24,6 +24,7 @@ const basicContext = {
 
 
 export default {
+  base : '/responsive_webpage/',
   plugins: [handlebars({
     context : basicContext
   })]
